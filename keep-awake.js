@@ -1,5 +1,5 @@
-import fetch from "node-fetch"; // For Node.js 18+
-const URL = "https://your-app.onrender.com"; // Replace with your actual Render URL
+import fetch from "node-fetch"; 
+const URL = "https://e-classroom.onrender.com/"; 
 
 const pingServer = () => {
   fetch(URL)
@@ -9,5 +9,4 @@ const pingServer = () => {
     .catch((err) => console.error("Error pinging server:", err));
 };
 
-setInterval(pingServer, 14 * 60 * 1000); // Ping every 14 minutes
-    
+setInterval(pingServer, 14 * 60 * 1000); 
